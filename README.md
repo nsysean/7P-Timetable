@@ -6,4 +6,4 @@ A simple, static website that can be deployed to Netlify.
 
 Source code used as an example for:
 
-* [Tech I Use: Netlify]
+* [Tech I Use: Netlify](http://blog.neverendingqs.com/2016/12/17/tech-i-use-netlify/)
