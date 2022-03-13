@@ -1,9 +1,130 @@
 <!DOCTYPE html>
-<html>
-  <body>
-
-    <h1>Hello World</h1>
-    <p>A simple static webpage.</p>
-
-  </body>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"><html>
+<style>
+    body {
+        background-color: #343a40;
+        color: white;
+    }
+    .column{
+        padding: 5%;
+        width: 70%;
+    }
+</style>
+<title>7P Timetable</title>
+<body>
+<script>
+    document.addEventListener('contextmenu', event => event.preventDefault());
+    document.onkeydown = function (e) {
+         if(e.keyCode == 123) {
+            return false;
+        }
+        if(e.ctrlKey && e.shiftKey && e.keyCode == 73){
+            return false;
+        }
+        if(e.ctrlKey && e.shiftKey && e.keyCode == 74) {
+            return false;
+        }
+        if(e.ctrlKey && e.keyCode == 85) {
+            return false;
+        }
+    }
+</script>
+<noscript>
+	<style type="text/css">
+		body { display:none; }
+	</style>
+</noscript>
+<h2><b>7P time table</b></h2>
+<div class="row">
+    <div class="column">
+        <table class="table table-bordered table-dark text-center">
+            <tr>
+                <th></th>
+                <th style="width:10%">Time</th>
+                <th>Mon</th>
+                <th>Tue</th>
+                <th>Wed</th>
+                <th>Thur</th>
+                <th>Fri</th>
+            </tr>
+            <tr>
+                <th>#1</th>
+                <th>8:10-8:45</th>
+                <th><a href="https://dbs-edu-hk.zoom.us/j/97189099054?pwd=RUk4Q3VJM2FWNWZnVUt6OTdKcERhQT09" target="_blank">PE</a></th>
+                    <th><a href="https://dbs-edu-hk.zoom.us/j/91669998442?pwd=S3BUMG80M2d6TkY4dVZsVWIzZ3BNZz09" target="_blank">I&D</a></th>
+                    <th><a href="https://dbs-edu-hk.zoom.us/j/99207791673?pwd=RUY0Mmx0ODNVNHV1Vkt0ZlJ6bkxmQT09" target="_blank">ENG</a></th>
+                    <th><a href="https://dbs-edu-hk.zoom.us/j/97478876252?pwd=UURhWVNkVTJzQXgwcEM4aTYxb1lNQT09" target="_blank">ELIT</a></th>
+                    <th><a href="https://dbs-edu-hk.zoom.us/j/94684544243?pwd=YVB2ckRnaUZ0c0xuN1RtUW0veTFSUT09" target="_blank">VA</a></th>
+                </tr>
+                <tr>
+                    <th>#2</th>
+                    <th>8:45-9:20</th>
+                    <th><a href="https://dbs-edu-hk.zoom.us/j/97189099054?pwd=RUk4Q3VJM2FWNWZnVUt6OTdKcERhQT09" target="_blank">PE</a></th>
+                    <th><a href="https://dbs-edu-hk.zoom.us/j/91669998442?pwd=S3BUMG80M2d6TkY4dVZsVWIzZ3BNZz09" target="_blank">I&D</a></th>
+                    <th><a href="https://dbs-edu-hk.zoom.us/j/95733642346?pwd=dytPcDJZdFVsVGlrd2YzNStoTmFadz09" target="_blank">HIS</a></th>
+                    <th><a href="https://dbs-edu-hk.zoom.us/j/92580806454?pwd=K0NaNDBWWVpvQ3gyenlxb1BDWkdadz09" target="_blank">CHIN</a></th>
+                    <th><a href="https://dbs-edu-hk.zoom.us/j/99207791673?pwd=RUY0Mmx0ODNVNHV1Vkt0ZlJ6bkxmQT09" target="_blank">ENG</a></th>
+                </tr>
+                <tr>
+                    <th></th>
+                    <td colspan="6"><b>BREAK</b></td>
+                </tr>
+                <tr>
+                    <th>#3</th>
+                    <th>9:40-10:15</th>
+                    <th><a href="https://dbs-edu-hk.zoom.us/j/99892424284?pwd=dFh1WTNFeHZ6eCtXQVJYWnh0ckJjdz09" target="_blank">PTH</a></th>
+                    <th><a href="https://dbs-edu-hk.zoom.us/j/97478876252?pwd=UURhWVNkVTJzQXgwcEM4aTYxb1lNQT09" target="_blank">ELIT</a></th>
+                    <th><a href="https://dbs-edu-hk.zoom.us/j/92580806454?pwd=K0NaNDBWWVpvQ3gyenlxb1BDWkdadz09" target="_blank">CHIN</a></th>
+                    <th><a href="https://dbs-edu-hk.zoom.us/j/91524235865?pwd=SnAwOWRqMFY0eVdJZDh6eVUrTW5ZUT09" target="_blank">IS</a></th>
+                    <th><a href="https://dbs-edu-hk.zoom.us/j/92609687230?pwd=SUs4c3NKeUVxaWNWQmZscG9RWnBBdz09" target="_blank">GEO</a></th>
+                </tr>
+                <tr>
+                    <th>#4</th>
+                    <th>10:15-10:50</th>
+                    <th><a href="https://dbs-edu-hk.zoom.us/j/93418816648?pwd=RmJjVmYvYlR2LytjZUhYcXhoVUdVQT09" target="_blank">CHIS</a></th>
+                    <th><a href="https://dbs-edu-hk.zoom.us/j/92163840336?pwd=ZXVRNFdjeS82Sk1GSHpPRmlhQXpHdz09" target="_blank">LS</a></th>
+                    <th><a href="https://dbs-edu-hk.zoom.us/j/94295610235?pwd=bnNzU1VNaFJId3JaWmdMaklOVng0UT09" target="_blank">MATH</a></th>
+                    <th><a href="https://dbs-edu-hk.zoom.us/j/9366238616" target="_blank">MUS</a></th>
+                    <th><a href="https://dbs-edu-hk.zoom.us/j/94295610235?pwd=bnNzU1VNaFJId3JaWmdMaklOVng0UT09" target="_blank">MATH</a></th>
+                </tr>
+                <tr>
+                    <th>#5</th>
+                    <th>10:50-11:25</th>
+                    <th><a href="https://dbs-edu-hk.zoom.us/j/99207791673?pwd=RUY0Mmx0ODNVNHV1Vkt0ZlJ6bkxmQT09" target="_blank">ENG</a></th>
+                    <th><a href="https://dbs-edu-hk.zoom.us/j/94295610235?pwd=bnNzU1VNaFJId3JaWmdMaklOVng0UT09" target="_blank">MATH</a></th>
+                    <th style="width:13%;">ACT Period</th>
+                    <th><a href="https://dbs-edu-hk.zoom.us/j/95225515202?pwd=U25LQUhKbjI4dlhadEdWOG90TWlZQT09" target="_blank">CL1</a>/<a href="https://zoom.us/j/95755539420?pwd=WSttRGpwTHFkbHFNNkxqN1FPMS9lQT09" target="_blank">CL2</a></th>
+                    <th><a href="https://dbs-edu-hk.zoom.us/j/94295610235?pwd=bnNzU1VNaFJId3JaWmdMaklOVng0UT09" target="_blank">MATH</a></th>
+                </tr>
+                <tr>
+                    <th></th>
+                    <td colspan="6"><b>BREAK</b></td>
+                </tr>
+                <tr>
+                    <th>#6</th>
+                    <th>11:45-12:20</th>
+                    <th><a href="https://dbs-edu-hk.zoom.us/j/92580806454?pwd=K0NaNDBWWVpvQ3gyenlxb1BDWkdadz09" target="_blank">CHIN</a></th>
+                    <th><a href="https://dbs-edu-hk.zoom.us/j/99207791673?pwd=RUY0Mmx0ODNVNHV1Vkt0ZlJ6bkxmQT09" target="_blank">ENG</a></th>
+                    <th><a href="https://dbs-edu-hk.zoom.us/j/91524235865?pwd=SnAwOWRqMFY0eVdJZDh6eVUrTW5ZUT09" target="_blank">IS</a></th>
+                    <th><a href="https://dbs-edu-hk.zoom.us/j/94295610235?pwd=bnNzU1VNaFJId3JaWmdMaklOVng0UT09" target="_blank">MATH</a></th>
+                    <th><a href="https://dbs-edu-hk.zoom.us/j/93418816648?pwd=RmJjVmYvYlR2LytjZUhYcXhoVUdVQT09" target="_blank">CHIS</a></th>
+                </tr>
+                <tr>
+                    <th>#7</th>
+                    <th>12:20-12:55</th>
+                    <th><a href="https://dbs-edu-hk.zoom.us/j/92580806454?pwd=K0NaNDBWWVpvQ3gyenlxb1BDWkdadz09" target="_blank">CHIN</a></th>
+                    <th><a href="https://dbs-edu-hk.zoom.us/j/92580806454?pwd=K0NaNDBWWVpvQ3gyenlxb1BDWkdadz09" target="_blank">CHIN</a></th>
+                    <th><a href="https://dbs-edu-hk.zoom.us/j/91524235865?pwd=SnAwOWRqMFY0eVdJZDh6eVUrTW5ZUT09" target="_blank">IS</a></th>
+                    <th><a href="https://dbs-edu-hk.zoom.us/j/92163840336?pwd=ZXVRNFdjeS82Sk1GSHpPRmlhQXpHdz09" target="_blank">LS</a></th>
+                    <th><a href="https://dbs-edu-hk.zoom.us/j/7275794650?pwd=MnlnNnJHZVJlZ0pTdVMwaGFMdWpZUT09" target="_blank">RS</a></th>
+                </tr>
+            </table>
+        </div>
+        <div class="column2">
+            <b> Current Lesson: Not Released Yet!</b>
+            <div class="column3"><b>Other links: <a href="https://dbs-edu-hk.zoom.us/j/7913747060">Drama</a></b></div>
+        </div>
+    </div>
+</body>
 </html>
+
