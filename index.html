@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<meta http-equiv="refresh" content="0">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"><html>
 <style>
     body {
@@ -127,19 +128,8 @@
             <b> Next Lesson: <a id="nre" href="#" target="_blank">No Lesson!</a></b>
             <div class="column2"><b>Other links: <a href="https://dbs-edu-hk.zoom.us/j/7913747060" target="_blank">Drama</a></b></div>
             <br>
-            <button onclick="AD()" class="btn btn-danger">Toggle AD</button>
-            <br></br>
-            <div class="" id="AD"><iframe width="300" height="400" src="https://www.youtube.com/embed/bcBfJkt7_0w">
-            </iframe> </div> 
             <script>
-            function AD(){
-                var x = document.getElementById('AD');
-                if (x.style.display === "none") {
-                    x.style.display = "block";
-                } else {
-                    x.style.display = "none";
-                }
-            }
+  
             var today = (new Date()).getDay();
             var hour = (new Date()).getHours();
             var minutes = (new Date()).getMinutes();
